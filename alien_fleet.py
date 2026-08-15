@@ -7,7 +7,7 @@ Purpose: This module builds and moves the whole alien fleet
 
 Starter Code: Based on the in class Alien Invasion tutorial
 
-Date: 08/13/2026
+Date: 08/14/2026
 """
 
 import pygame
@@ -103,6 +103,10 @@ class AlienFleet:
     def check_ship_collision(self, ship) -> bool:
         #return True if any alien collided with the ship
         return pygame.sprite.spritecollideany(ship, self.fleet) is not None
+
+    def check_destroyed_status(self) -> bool:
+        #return True if every alien in the fleet is gone
+        return not self.fleet
 
     def draw(self) -> None:
         #draw every alien in the fleet
