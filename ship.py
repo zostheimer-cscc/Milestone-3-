@@ -7,7 +7,7 @@ Purpose: This module controls the player ship on the left edge
 
 Starter Code: Based on the in class Alien Invasion tutorial
 
-Date: 08/13/2026
+Date: 08/14/2026
 """
 
 import pygame

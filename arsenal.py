@@ -7,7 +7,7 @@ Purpose: This module manages the group of bullets the ship fires
 
 Starter Code: Based on the in class Alien Invasion tutorial
 
-Date: 08/13/2026
+Date: 08/14/2026
 """
 
 import pygame

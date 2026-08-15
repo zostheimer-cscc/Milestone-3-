@@ -27,7 +27,7 @@ class Settings:
         self.FPS: int = 60
         self.bg_file = BASE_PATH / 'Assets' / 'images' / 'Starbasesnow.png'
 
-        self.ship_file = BASE_PATH / 'Assets' / 'images' / 'ship2_no_bg_.png'
+        self.ship_file = BASE_PATH / 'Assets' / 'images' / 'ship2(no bg).png'
         self.ship_w: int = 60
         self.ship_h: int = 40
         self.starting_ship_count: int = 3
@@ -41,15 +41,16 @@ class Settings:
         self.bullet_amount: int = 5
 
         self.alien_file = BASE_PATH / 'Assets' / 'images' / 'enemy_4.png'
-        self.alien_w: int = 40
-        self.alien_h: int = 40
+        self.alien_w: int = 60
+        self.alien_h: int = 60
+        self.fleet_speed: int = 1
         self.fleet_direction: int = 1
         #1 moves the fleet down, -1 moves it up
-        self.fleet_step_left: int = 40
+        self.fleet_step_left: int = 60
         self.fleet_cols: int = 4
 
         self.scores_file = BASE_PATH / 'Assets' / 'file' / 'scores.json'
-        self.font_file = BASE_PATH / 'Assets' / 'fonts' / 'Silkscreen-Regular.ttf'
+        self.font_file = BASE_PATH / 'Assets' / 'Fonts\Silkscreen' / 'Silkscreen-Regular.ttf'
         self.HUD_font_size: int = 40
         self.button_font_size: int = 48
         self.font_color = (255, 255, 255)
